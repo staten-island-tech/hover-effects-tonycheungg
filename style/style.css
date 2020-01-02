@@ -72,6 +72,7 @@ html {
 
 .two {
   opacity: .6;
+  background-color: green;
 }
 
 .two:hover {
@@ -79,9 +80,26 @@ html {
   opacity: 1;
 }
 
+.three {
+  background-color: blue;
+}
+
 .three:hover {
   letter-spacing: 1rem;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
+}
+
+.four {
+  background-color: red;
+}
+
+.four:hover,
+.four:after {
+  background-color: orangered;
+}
+
+.five {
+  background-color: purple;
 }
 /*# sourceMappingURL=style.css.map */
