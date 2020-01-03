@@ -10,8 +10,8 @@ html {
   height: 45rem;
 }
 .holiday-gallery {
-    position: relative;
-    margin: 0rem;
+  position: relative;
+  margin: 0rem;
 }
 .holiday {
   height: 20vh;
@@ -19,31 +19,30 @@ html {
   transition: all 0.3s;
   outline-offset: 1;
 }
-.diwali{
-top: 15rem;
-left: 15%;
+.diwali {
+  top: 15rem;
+  left: 15%;
 }
-.saturnalia{
-top: 0rem;
-left: 15rem;
+.saturnalia {
+  top: 0rem;
+  left: 15rem;
 }
-.china{
-top: 0rem;
-left: 0;
+.china {
+  top: 0rem;
+  left: 0;
 }
 
-.holiday:hover{
+.holiday:hover {
   transform: scale(1.3);
   outline: 1rem solid black;
   z-index: 2;
 }
 
-.holiday-gallery:hover .holiday:not(:hover){
-transform: scale(.8);
-opacity: 0.5;
+.holiday-gallery:hover .holiday:not(:hover) {
+  transform: scale(0.8);
+  opacity: 0.5;
 }
-.button{
-  background-color: black; /* Green */
+.button {
   border: none;
   color: white;
   padding: 15px 32px;
@@ -51,36 +50,52 @@ opacity: 0.5;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
+}
+.one{
+  background-color: black;
+  border-radius: 1rem;
 }
 .one:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2),0 12px 50px 0 rgba(0,0,0,0.19);
-  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2),
+    0 12px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.two{
-  opacity: .6;
+.two {
+  opacity: 0.6;
   background-color: green;
+  border-radius: 1rem;
 }
-.two:hover{
-  cursor: pointer;
+.two:hover {
   opacity: 1;
 }
-.three{
-  background-color:blue;
+.three {
+  background-color: blue;
+  border-radius: 1rem;
+  transition: all 1000ms ease;
 }
-.three:hover{
+.three:hover {
   letter-spacing: 1rem;
-  transition: all 250ms ease-in-out;
+  transition: all 500ms ease;
 }
-.four{
+.four {
   background-color: red;
+  border-radius: 1rem;
 }
 .four:hover,
-.four:after{
-  background-color:orangered;
+.four:after {
+  background-color: orange;
 }
-.five{
-  background-color:purple;
+.five {
+  background-color: purple;
+  background: black;
+  border: 4px solid purple;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
 }
-.five:hover{
-
+.five:hover {
+  color: yellow;
+  border-radius: 50px;
+  border-color: purple;
+  transition: all 0.3s ease 0s;
 }
